@@ -86,6 +86,7 @@ disp_letter	proc near
             ;mov cl,[bx]
             ;mov ch,0  
             ;inc bx 
+			;BUFFER BUG
             
  			ret
 disp_letter	endp
